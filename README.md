@@ -13,7 +13,7 @@ provider "aws" {
 }
 
 module "docker_instance" {
-    source = "<github-username>/docker-instance/aws"
+    source = "<Fatih2306>/docker-instance/aws"
     key_name = "clarusway"
 }
 ```
